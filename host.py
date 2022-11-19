@@ -14,7 +14,7 @@ def login():
 def software():
     return render_template('phylogin.html')
 
-@app.route('/dashboard')
+@app.route('/aboutus')
 def dashboard():
     return render_template('ptdash.html')
 
